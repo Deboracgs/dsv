@@ -1,0 +1,86 @@
+{
+  "name": "dsv-react-coding-exercise-3",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "license": "ISC",
+  "dependencies": {
+    "@cypress/react": "^6.0.0",
+    "@cypress/webpack-dev-server": "^2.0.0",
+    "@emotion/react": "11.8.2",
+    "@emotion/styled": "11.8.1",
+    "@mui/icons-material": "5.5.1",
+    "@mui/material": "5.5.1",
+    "@mui/styles": "5.5.1",
+    "@reduxjs/toolkit": "^1.8.3",
+    "axios": "^0.27.2",
+    "cypress": "^10.4.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-redux": "~7.2.6",
+    "react-scripts": "4.0.2",
+    "redux": "~4.1.2",
+    "redux-thunk": "~2.4.1",
+    "styled-components": "^5.3.3",
+    "typescript": "~4.5.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "~7.16.8",
+    "@babel/core": "~7.16.12",
+    "@babel/plugin-transform-runtime": "~7.16.10",
+    "@babel/plugin-transform-typescript": "~7.16.8",
+    "@babel/preset-env": "~7.16.11",
+    "@babel/preset-react": "~7.16.7",
+    "@babel/preset-typescript": "~7.16.7",
+    "@babel/runtime": "7.13.8",
+    "@testing-library/dom": "~8.11.3",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "~12.1.2",
+    "@testing-library/react-hooks": "~7.0.2",
+    "@testing-library/user-event": "^14.0.0-beta",
+    "@types/jest": "~27.0.1",
+    "@types/node": "~16.9.1",
+    "@types/react": "^17.0.48",
+    "@types/react-dom": "~17.0.9",
+    "@types/react-redux": "~7.1.18",
+    "@types/styled-components": "^5.1.21"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "test:coverage": "npm test -- --coverage",
+    "eject": "react-scripts eject",
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "jest": {
+    "coverageReporters": [
+      "lcov",
+      "text"
+    ],
+    "collectCoverageFrom": [
+      "<rootDir>/src/**/*.{ts,tsx}",
+      "!<rootDir>/src/index.tsx",
+      "!<rootDir>/src/**/*.stories.{ts,tsx}",
+      "!<rootDir>/src/**/*.styled.{ts,tsx}",
+      "!<rootDir>/src/effects/**/*.{ts,tsx}",
+      "!<rootDir>/src/utils/*.{ts,tsx}",
+      "!<rootDir>/src/typings/**/*.{ts,tsx}",
+      "!<rootDir>/node_modules/**"
+    ]
+  }
+}

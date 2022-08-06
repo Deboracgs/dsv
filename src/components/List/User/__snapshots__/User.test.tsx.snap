@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List User Component render 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="list-user"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+    />
+  </div>
+</DocumentFragment>
+`;
